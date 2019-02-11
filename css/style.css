@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+* {
+  box-sizing: border-box;
+}
+/* COLORS */
+
+.txt-primary {
+  color: #1C7EBB;
+}
+.bg-primary {
+  background: #1C7EBB;
+}
+.txt-success {
+  color: #23AE89;
+}
+.bg-success {
+  background: #23AE89;
+}
+.txt-danger {
+  color: #E94B3B;
+}
+.bg-danger {
+  background: #E94B3B;
+}
+.txt-warning {
+  color: #F98E33;
+}
+.bg-warning {
+  background: #F98E33;
+}
+.txt-violet {
+  color: #6A55C2;
+}
+.bg-violet {
+  background: #6A55C2;
+}
+
+body {
+  background: #f0f0f0;
+  line-height: normal;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.vm-logo {
+  margin: -15px 0 0;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0 0px 9px 4px rgba(0, 0, 0, 0.1), 0 -5px 2px 2px rgba(0, 0, 0, 0.1);
+  background: white;
+  z-index: 10000;
+  text-align: center;
+}
+
+.title {
+  line-height: 75px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: none;
+  color: #222533;
+}
+
+.body-wrapper {
+  position: absolute;
+  left: 230px;
+  top: 75px;
+  width: auto;
+  right: 0;
+  transition: all .2s ease-in-out;
+}
+
+.body-wrapper {
+  top: 100px;
+  left: 0px;
+}
+
+.chart {
+  height: 250px;
+}
+
+.panel {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 0;
+  position: relative;
+}
+  
+.panel-heading {
+  background: white !important;
+  border-radius: 0;
+  padding: 15px;
+  border-bottom: 0 !important;
+}
+
+.panel-heading .panel-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  color: #515d6e;
+}
+
+.panel-action {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+.panel-action li {
+  display: inline-block;
+  color: #515d6e;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.box {
+  margin-bottom: 16px;
+  box-shadow: 1px 1px 2px 0 #CCCCCC;
+  padding: 20px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background: white !important;
+}
+
+.box i {
+  display: block;
+  background-clip: padding-box;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 4.4em;
+  position: absolute;
+}
+
+.box .value,
+.box .heading {
+  display: block;
+  position: relative;
+  color: #515d6e;
+  text-align: right;
+  z-index: 10;
+}
+
+.box .heading {
+  font-size: 1.2em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.box .value {
+  font-size: 2.1em;
+  font-weight: 600;
+  margin-top: 5px;
+}
